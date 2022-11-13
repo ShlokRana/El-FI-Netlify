@@ -1,0 +1,149 @@
+.main_container_services{
+    padding: 4rem 2rem;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #178FD6;
+    overflow-x: hidden;
+ }
+
+ .services_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 1240px;
+    margin: auto;
+ }
+
+ .services_image,.services_text{
+    width: 50%;
+ }
+
+ .services_image{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding: 1rem 1.5rem;
+ }
+ #services_image{
+    max-width:100%;
+    height:auto;
+    max-height:100%;
+ }
+
+ .services_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--ff-standard);
+    max-width: 500px;
+    color: #fff;
+    box-sizing: border-box;
+
+ }
+
+ .services_title{
+    margin-bottom: 1rem;
+    font-weight:700;
+}
+.services_para{
+    text-align: justify;
+    font-size:0.97rem;
+    line-height: 1.5rem;
+    font-weight:var(--fw-r);
+    color: #FCFAFA;
+    box-sizing: border-box;
+
+}
+
+.services_title h2,.services_para p{ 
+  margin: 0;
+}
+
+.services_para p{
+   margin-bottom: 1rem;
+}
+
+.services_para_bullets{
+  display: flex;
+  align-items: flex-start;
+}
+
+.services_para_bullets img{
+  margin-right: 0.5rem;
+  margin-top: 0.24rem;
+}
+
+
+@media screen and (max-width: 980px) {
+
+.services_title{
+    margin-bottom: 0.5rem;
+    font-size: 0.94rem;
+}
+.services_para{
+    font-size:0.89rem;
+    line-height: 1.4rem;
+}
+
+}
+
+@media screen and (max-width: 870px) {
+
+.main_container_services{
+    padding: 4rem 1rem;
+}
+ 
+.services_content{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+ }
+
+.services_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.services_image,.services_text{
+    width: 100%;
+}
+
+.services_text{
+   margin-top: 1.5rem;
+   text-align: center;
+}
+.services_title{
+    margin-bottom: 1rem;
+    font-size: 0.93rem;
+}
+.services_para{
+    font-size:0.97rem;
+    line-height: 1.5rem;
+    width: 80vw;
+}
+}
+
+@media screen and (max-width: 450px) {
+
+.main_container_services{
+    padding: 2rem 0.8rem 4rem 0.8rem;
+}
+
+.services_image{
+    width: 100%;
+    padding: 1rem;
+}
+
+ .services_title{
+    font-size: 0.8rem;
+}
+}

@@ -1,0 +1,134 @@
+ .main_container_about{
+    padding: 4rem 2rem;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+ }
+
+ .about_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 1240px;
+    margin: auto;
+    box-sizing: border-box;
+ }
+
+ .about_image,.about_text{
+    width: 50%;
+    box-sizing: border-box;
+ }
+
+ .about_image{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.5rem;
+ }
+ #about_image{
+    max-width:100%;
+    height:auto;
+    max-height:100%;
+ }
+
+ .about_title h2,.about_para p{ 
+   margin: 0;
+ }
+
+ .about_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--ff-standard);
+    max-width: 500px;
+ }
+
+ .about_title{
+    color: var(--section-header-clr);
+    margin-bottom: 0.8rem;
+    font-weight:700;
+}
+.about_para{
+    text-align: justify;
+    font-size:0.97rem;
+    line-height: 1.5rem;
+    font-weight:var(--fw-r);
+    color: var(--section-para-clr);
+    box-sizing: border-box;
+
+}
+
+
+@media screen and (max-width: 980px) {
+
+.about_title{
+    margin-bottom: 0.5rem;
+    font-size: 0.94rem;
+}
+.about_para{
+    text-align-last: center;
+    font-size:0.89rem;
+    line-height: 1.4rem;
+}
+}
+
+@media screen and (max-width: 870px) {
+
+.main_container_about{
+    padding: 4rem 1rem;
+}
+ 
+.about_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+ }
+
+.about_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem;
+    width: 100%;
+}
+
+.about_text{
+   margin-top: 1rem;
+   width: 100%;
+}
+.about_title{
+    margin-bottom: 1.2rem;
+    font-size: 0.93rem;
+}
+.about_para{
+    font-size:0.97rem;
+    line-height: 1.5rem;
+    width: 80vw;
+}
+
+}
+
+
+@media screen and (max-width: 450px) {
+
+.main_container_about{
+    padding: 2rem 0.8rem 4rem 0.8rem;
+}
+
+.about_title{
+    font-size: 0.8rem;
+}
+
+.about_image{
+    padding:0 0.1rem;
+}
+
+}
+
+
+
+

@@ -1,0 +1,139 @@
+ .main_container_electrify{
+    padding: 4rem 2rem;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+ }
+
+ .electrify_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 1240px;
+    margin: auto;
+    box-sizing: border-box;
+ }
+
+ .electrify_image,.electrify_text{
+    width: 50%;
+    box-sizing: border-box;
+ }
+
+ .electrify_image{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.5rem;
+ }
+ #electrify_image{
+    max-width:100%;
+    height:auto;
+    max-height:100%;
+ }
+ 
+.electrify_title h2,.electrify_para p{ 
+ margin: 0;
+}
+
+ .electrify_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--ff-standard);
+    max-width: 500px;
+ }
+
+ .electrify_title{
+    color: var(--section-header-clr);
+    margin-bottom: 1rem;
+    font-weight:700;
+}
+.electrify_para{
+    text-align: justify;
+    font-size:0.97rem;
+    line-height: 1.5rem;
+    font-weight:var(--fw-r);
+    color: var(--section-para-clr);
+    box-sizing: border-box;
+
+}
+
+.electrify_para p{
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 980px) {
+
+.electrify_title{
+    margin-bottom: 0.5rem;
+    font-size: 0.94rem;
+}
+.electrify_para{
+    font-size:0.89rem;
+    line-height: 1.4rem;
+}
+}
+
+@media screen and (max-width: 870px) {
+
+.main_container_electrify{
+    padding: 4rem 1rem;
+}
+ 
+.electrify_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+ }
+
+.electrify_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem;
+    width: 100%;
+}
+
+.electrify_text{
+   margin-top: 1rem;
+   width: 100%;
+   text-align: center;
+}
+.electrify_title{
+    margin-bottom: 0.8rem;
+    font-size: 0.93rem;
+}
+.electrify_para{
+    font-size:0.97rem;
+    line-height: 1.5rem;
+    width: 80vw;
+}
+ 
+
+}
+
+
+@media screen and (max-width: 450px) {
+
+.main_container_electrify{
+    padding: 2rem 0.8rem 4rem 0.8rem;
+}
+
+.electrify_title{
+    font-size: 0.8rem;
+}
+
+.electrify_image{
+    padding: 1rem;
+    width: 100%;
+}
+
+}
+
+
+
+

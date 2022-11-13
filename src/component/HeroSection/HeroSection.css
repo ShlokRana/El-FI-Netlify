@@ -1,0 +1,95 @@
+.main_container_hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 150px 100px;
+    width: 100%;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.5) 70%, rgba(0, 0, 0, 0.3)), url("../../images/HeroCarousel.svg");
+    background-color: #178FD6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+.hero_content {
+    box-sizing: border-box;
+    text-align: center;
+    text-align-last: center;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.hero_title {
+    font-family: var(--ff-title);
+    font-weight: var(--fw-b);
+    font-size: 4.5rem;
+    letter-spacing: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero_tagLine {
+    font-family: var(--ff-title);
+    font-weight: var(--fw-b);
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    line-height: 2.5rem;
+}
+
+@media screen and (max-width: 980px) {
+
+    .main_container_hero {
+        padding: 120px 40px;
+    }
+
+    .hero_title {
+        font-size: 3.8rem;
+        letter-spacing: 0.5rem;
+    }
+
+    .hero_tagLine {
+        font-size: 1.15rem;
+    }
+}
+
+@media screen and (max-width: 870px) {
+
+    .main_container_hero {
+        padding: 120px 15px;
+    }
+
+    .hero_title {
+        font-size: 3.2rem;
+    }
+
+    .hero_tagLine {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .main_container_hero {
+        padding: 100px 15px;
+    }
+
+    .hero_title {
+        font-size: 2.5rem;
+        letter-spacing: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .hero_tagLine {
+        font-size: 0.8rem;
+        line-height: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .hero_title {
+        font-size: 2.7rem;
+    }
+
+}
