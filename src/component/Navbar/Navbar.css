@@ -181,7 +181,7 @@
     top: 0;
     height: 100vh;
     width: 100%;
-    transition: all 2s;
+    transition: all 1.5s;
     background: linear-gradient(to right, #fff 80%, #034488 20%);
     color: var(--nav-primary-clr);
     font-family: var(--ff-title);
