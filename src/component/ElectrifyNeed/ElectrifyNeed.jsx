@@ -15,7 +15,7 @@ function ElectrifyNeed() {
             <p>Our society faces many challenges like higher energy cost with depleting energy resources, increased carbon emissions and
                climate change. 
             </p>
-            <p>Electrify Homes takes an innovative approach to solve the energy challengeby providing onsite renewable energy generation,
+            <p>Electrify Homes takes an innovative approach to solve the energy challenge by providing onsite renewable energy generation,
                storage and efficient electric appliances. EL-FI will reduce your carbon footprint and offer energy savings.
             </p>
             <p>Electrify Homes can unlock different monetary benefits available for its customers from federal, state and or your local
