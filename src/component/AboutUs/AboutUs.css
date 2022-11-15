@@ -50,6 +50,7 @@
     color: var(--section-header-clr);
     margin-bottom: 0.8rem;
     font-weight:700;
+    text-align: center;
 }
 .about_para{
     text-align: justify;
