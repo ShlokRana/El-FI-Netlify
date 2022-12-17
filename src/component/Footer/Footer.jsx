@@ -40,7 +40,7 @@ function Footer() {
           </div>
         </div>
         <div className='address'>
-          <p>273 Santa Barbara Irvine CA 92606,USA</p>
+          <p>Irvine, CA</p>
         </div>
       </div>
       <div className="copyright_footer">
